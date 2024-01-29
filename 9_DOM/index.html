@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/scripts.js" defer></script> <!--O carregamento dos elementos vai ser de cima para baixo, carregando a tag script antes do HTML, para resolver aplicamos o atributo DEFER-->
+</head>
+<body>
+    <header>
+        <h1 id="title">Titulo</h1>
+        <nav>
+            <ul>
+                <a id="#">Home</a>
+                <a id="#">Produtos</a>
+                <a id="#">Contatos</a>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-container">
+        <div class="product">
+            <h2>Produto 1</h2>
+            <p>Descricao</p>
+        </div>
+        <div class="product">
+            <h2>Produto 2</h2>
+            <p>Descricao</p>
+        </div>
+    </main>
+    <footer>
+        <p>Rodape</p>
+    </footer>
+</body>
+</html>
